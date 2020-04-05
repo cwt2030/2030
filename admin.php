@@ -2,7 +2,8 @@
 <!DOCTYPE html>
 <html >
     <head>
-        <link href="css.css" rel="stylesheet" >
+		<meta charset="utf-8">
+    <link rel="stylesheet" href="css/css1.css">
     </head>
     <body>
         
@@ -25,21 +26,23 @@
             </b>
  
         </div>
-        <div class="form">
-		<form action="admin.php" method="post">
-			Name:<input type="text" name="name1"required>
-			<br><br><br>
-			 
-            Phone:<input type="text" name="Phone" required>
-             <br><br><br><br>
-             Password:<input type="password" name="Password"required>
-             <br><br><br><br>
- 
-
-			<input type="submit" >
-                </form>
-            </div>
-
+     
+        <div class="formadmin  row col-4 justify-content-center align-items-end"  >
+    
+            <form action="admin.php" method="post">
+                         <h1>Create new User</h1>
+                Name:<input type="text" name="name1"required>
+                <br><br>
+                 
+                Phone:<input type="text" name="Phone" required>
+                 <br><br> 
+                 Password:  <input type="password" name="Password"required>
+                 <br><br>
+        
+        
+                <input type="submit" >
+          </form>
+         </div>
             <?php
     $sql ="INSERT INTO userdata (Name, Phone, Pass ) VALUES ('$col' ,'$Rest' ,'$Pass')";
     mysqli_query($conn,$sql);
@@ -52,9 +55,11 @@
         $result =$stmt->get_result();
 
         echo "<table ";
+echo "<tr><td>".المستخدم."</td><td>".الجوال."</td><td>".المرور."</td><td>".التاريخ."</td></tr>";
+
         while($row = $result ->fetch_assoc()){
             
- echo "<tr><td>".$row['Name']."</td><td>".$row['Phone']."</td><td>".$row['date']."</td><td>".$row['Pass']."</td></tr>";
+ echo "<tr><td>".$row['Name']."</td><td>".$row['Phone']."</td><td>".$row['Pass']."</td><td>".$row['date']."</td></tr>";
 
         }
         echo  "</table>"
