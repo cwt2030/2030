@@ -3,6 +3,7 @@
 <html >
     <head>
 		<meta charset="utf-8">
+		  <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/css1.css">
     </head>
     <body>
@@ -21,11 +22,11 @@
       ?>
 
         <div class="div1">
-            <b>
+            <h1>
                 welcome to Admin
-            </b>
+            </h1>
  
-        </div>
+      
      
         <div class="formadmin  row col-4 justify-content-center align-items-end"  >
     
@@ -43,7 +44,10 @@
                 <input type="submit" >
           </form>
          </div>
+		<h1 class="h11">معلومات_المستخدمين-الموقع</h1>
+			  </div>
             <?php
+		   
     $sql ="INSERT INTO userdata (Name, Phone, Pass ) VALUES ('$col' ,'$Rest' ,'$Pass')";
     mysqli_query($conn,$sql);
 
@@ -66,9 +70,9 @@ echo "<tr><td>".المستخدم."</td><td>".الجوال."</td><td>".المرو
 
      ?>
 
-		<footer>
+		<h1 class="h11">
         End !
-    </footer>
+    </h1>
 
     </body>
 </html>

@@ -1,36 +1,127 @@
 body{
-     background:#e8e8e8;
-     
- }
- .bodytype{
+  background:#e8e8e8;
+  font-family: 'Markazi Text', serif;
+}
+.fonts{
+   font-family: 'Markazi Text', serif;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(71, 52, 107);
  
-      background-image:url("/amg/allcode1.png");
-      background-size: 100% 100%   ;
-      height: 500px;
-      width: 100%;
-     
-       
- 
- }
- table {
-     font-family: arial, sans-serif;
-     border-collapse: collapse;
-     width: 100%;
-   }
-   
- table td, th {
-     border: 1px solid #dddddd;
-     text-align: left;
-     padding: 8px;
-   }
-   
- table tr:nth-child(even) {
-     background-color: #ddd;
-   }
-   
+
+}
+/*          typecode.html  صفحة           */
+.bodytype{
+    background-image:url("/amg/all.png");
+   background-size: 100% 100%   ;
+   height: 500px;
+   width: 100%;
+  
+    
+
+}
+/*           admin.php صفحة           */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #ddd;
+}
+
 .formadmin{
 
-     background-color: aqua;
-     margin: 3px;
-     padding: 5%;
+  background-color: aqua;
+  margin: 3px;
+  padding: 5%;
 } 
+.h11{
+    background-color: rgb(143, 199, 209);
+  text-align: center;
+
+}
+.div1{
+   background-color: rgb(143, 199, 209);
+    text-align: center;
+}
+.type{
+  background-color: aqua;
+}.type1{
+  background-color: rgb(50, 75, 75);
+}.type2{
+  background-color: rgb(141, 155, 180);
+}
+.my-grid1{
+  padding: 5%;
+  margin: 5%;
+  background: red;
+  border-style: solid;
+  border-color: rgb(51, 31, 31);
+
+}
+.my-grid1 div{
+  margin: 5%;
+}
+
+.sign{
+  padding: 5%;
+  margin: 5%;
+  background: rgb(193, 214, 193);
+  border-style: solid;
+  border-color: rgb(51, 31, 31);
+
+}
+.child{
+  background: rgb(214, 197, 197);
+}
+.child1{
+  background: rgb(192, 137, 137);
+} 
+.child2{
+  background: rgb(44, 204, 169);
+}
+.container-fluid{
+
+   border-style: solid;
+  border-color: black;
+  background-image: url(https://www.goodcore.co.uk/blog/wp-content/uploads/2019/08/what-is-coding-1024x439.png);                
+}
+.header{
+  background-color: rgb(42, 131, 182);
+  text-align: center;
+  color: rgb(216, 217, 231);
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+   
+}
+/*            صفحة الويب          */
+.div5{
+  background: #23241a;
+  width: 50%;
+  height: 30%;
+  text-align: center;
+  margin: 2%;
+  padding: 17px 0 0 0;
+  float: left;
+  color: seashell;;
+  padding: 1%;
+}
+.header a{
+  color: rgb(228, 225, 225);
+  background-color: rgb(102, 102, 131);
+  margin-left: 10%;
+  text-align: center;
+  text-decoration-style: none;
+  padding: 1%;
+   
+  
+}
+ 
