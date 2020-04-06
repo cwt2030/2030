@@ -66,6 +66,7 @@ table tr:nth-child(even) {
   background: rgb(130, 182, 231);
   border-style: solid;
   border-color: rgb(26, 18, 18);
+  text-align: center;
 
 }
 .my-grid1 div{

@@ -42,5 +42,6 @@ each "Dear $user, your password is " $pass";
 $sql ="INSERT INTO userdata (Name, Phone, Pass ) VALUES ('$col' ,'$Rest' ,'$Pass')";
 mysqli_query($conn,$sql);
 
+header("Location:typecode.html");
  ?>
  
