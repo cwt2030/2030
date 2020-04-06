@@ -15,33 +15,55 @@
         <div class="header col-12 " >
             <h5 class="fonts" >موقع  التعريف بلغات البرمجة   </h5>
         </div>
-            <div class="   sign  row justify-content-center  col-4  ">
+            <div class="   sign  row justify-content-center  col-5  ">
  
                 <form action="action.php" method="POST" target="typecode.html" class=" child2 col row justify-content-center  ">
+                    <div class="one row col-12 justify-content-center">
                     <h5> تسجيل جديد  </h5>
+                </div>
+                     
                     <div>
-                        <h6>Enter username:<input type="text" name="name1"required></h6>
+                        <h6>Enter username: <br><input type="text" name="name1"required></h6>
                         
 			 
-                       <h6>  Phone:<input type="text" name="Phone" required></h6>
+                       <h6>  Phone: <br> <input type="text" name="Phone" required></h6>
                     </div>
-                    <h6> Enter password: <input type="password" name="Password"required> </h6>
+                    <h6> Enter password: <br> <input type="password" name="Password"required> </h6>
                     <br>
+                <div class="one row col-12 justify-content-center">
                     <input type="submit" >
-        
+                </div>
  
                 </form>
-                <form action="login.php" method="POST">
-                <div class="row col-12"></div>
+                
+               
+
+
+                <form action="login.php" method="POST "class="child1 col-12 row justify-content-center  " >
 
                 <div class="child1  col-12 row justify-content-center">
+                    <div class="one row col-12 justify-content-center">
+
                     <h5>سجل دخولك من هنا</h5>
-                    <h6>Enter username <input type="text" name="username" required ></h6> 
+                </div>
                     <br>
-                <h6>  Enter password:  <input type="password" name="password" required></h6> 
-                    <br>
-                    <button type="submit" name="login">دخول</button>
-       
+                    <h6> 
+                        Enter username  
+                        <br>
+
+                        <input type="text" name="username" required >
+                    </h6> 
+                     <h6> 
+                    Enter password: 
+                    <br> 
+                     <input type="password" name="password" required >
+                    </h6> 
+                    
+                    <div class="one row col-12 justify-content-center">
+
+                    <button type="submit" name="login"   >دخول</button>
+                    </div>
+                
                 </div>
                     
             </form>
